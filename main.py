@@ -9,8 +9,8 @@ import csv
 
 #Creating and loading the trucks
 truck1 = Truck(1,16, [1,2,4,5,7,8,13,14,15,16,18,19,20,30,31], "4001 South 700 East", datetime.timedelta(hours=8),0)
-truck2 = Truck(2,16, [3,6,10,11,12,17,21,22,23,24,26,27,29,36,38], "4001 South 700 East", datetime.timedelta(hours=9, minutes=10),0)
-truck3 = Truck(3,16, [9,25,28,32,33,34,35,37,39,40], "4001 South 700 East", datetime.timedelta(hours=11),0)
+truck2 = Truck(2,16, [3,6,11,12,17,21,23,24,25,26,34,36,37,38,40], "4001 South 700 East", datetime.timedelta(hours=9, minutes=10),0)
+truck3 = Truck(3,16, [9,10,22,27,28,29,32,33,35,39], "4001 South 700 East", datetime.timedelta(hours=11),0)
 
 
 
